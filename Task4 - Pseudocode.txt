@@ -1,0 +1,15 @@
+Task4 - Pseudocode
+------------------
+
+Task 4 - Positive, Negative, or Zero Check:
+
+START
+	INPUT number
+	IF number > 0 THEN
+		PRINT Positive
+	IF number < 0 THEN
+		PRINT Negative
+	ELSE
+		PRINT Zero
+	ENDIF
+END

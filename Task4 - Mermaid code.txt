@@ -1,0 +1,10 @@
+flowchart TD
+    Id0([START]) --> Id1[/Get input: number/]
+    Id1 --> Id2{number > 0 ?}
+    Id2 --> |No| Id3{number < 0 ?}
+    Id2 --> |Yes| Id4[/Print: Positive/]
+    Id3 --> |Yes| Id5[/Print: Negative/]
+    Id3 --> |No| Id6[/Print: Zero/]
+    Id4 --> Id7([END])
+    Id5 --> Id7([END])
+    Id6 --> Id7([END])
