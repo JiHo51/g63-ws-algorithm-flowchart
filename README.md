@@ -21,6 +21,8 @@ following sections:
 
 ## 1. Check Even or Odd Number
 
+GitHub link to my flowchart image: [Flowchart image](https://github.com/JiHo51/g63-ws-algorithm-flowchart/blob/main/Task1%20-%20Flowchart.drawio.png)
+
 Design an algorithm and flowchart that take a number as input and
 determine whether it is even or odd.
 
