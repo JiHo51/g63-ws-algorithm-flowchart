@@ -1,0 +1,9 @@
+flowchart TD
+    Id0([Start]) --> Id1[/Get input: number/]
+    Id1 --> Id2[iteration = 1]
+    Id2 --> Id3[result = number * iteration]
+    Id3 --> Id4[/Print: result/]
+    Id4 --> Id5{iteration >= 10 ?}
+    Id5 --> |No| Id6[iteration = iteration + 1]
+    Id6 --> Id3
+    Id5 --> |Yes| Id7([End])

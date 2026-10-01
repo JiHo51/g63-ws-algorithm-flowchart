@@ -1,0 +1,14 @@
+Task3 - Pseudocode
+------------------
+
+Task 3 - Display Multiplication Table:
+
+Multiplication Tables for multiplication with 1 to 10.
+
+START
+	INPUT number
+	For iteration 1 to 10
+		result = number * iteration
+		PRINT result
+	EndFor
+END
