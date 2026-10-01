@@ -21,7 +21,7 @@ following sections:
 
 ## 1. Check Even or Odd Number
 
-GitHub link to my flowchart image: [Flowchart image](https://github.com/JiHo51/g63-ws-algorithm-flowchart/blob/main/Task1%20-%20Flowchart.drawio.png)
+GitHub link to my draw.io flowchart image: [Flowchart image](https://github.com/JiHo51/g63-ws-algorithm-flowchart/blob/main/Task1%20-%20Flowchart.drawio.png)
 
 Design an algorithm and flowchart that take a number as input and
 determine whether it is even or odd.
@@ -58,6 +58,38 @@ flowchart TD
 Write the algorithm and draw the flowchart for a program that inputs
 marks for 3 subjects, calculates the total and average, and displays
 both.
+
+### ✔ Pseudocode
+
+```text
+START
+	INPUT math-mark
+	INPUT english-mark
+	INPUT geography-mark
+
+	total = math-mark + english-mark + geography-mark
+	average = total / 3
+
+	PRINT total
+	PRINT average
+END
+```
+
+### ✔ Flowchart
+
+GitHub link to my draw.io flowchart image: [Flowchart image](https://github.com/JiHo51/g63-ws-algorithm-flowchart/blob/main/Task2%20-%20Flowchart.drawio.png)
+
+```mermaid
+flowchart TD
+    Id0([Start]) --> Id1[/Get input: math-mark/]
+    Id1 --> Id2[/Get input: english-mark/]
+    Id2 --> Id3[/Get input: geography-mark/]
+    Id3 --> Id4[total = math-mark + english-mark + geography-mark]
+    Id4 --> Id5[average = total / 3]
+    Id5 --> Id6[/Print: total/]
+    Id6 --> Id7[/Print: average/]
+    Id7 --> Id8([End])
+```
 
 ---
 
