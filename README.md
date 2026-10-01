@@ -133,6 +133,38 @@ flowchart TD
 Write the algorithm and flowchart to input a number and display whether
 it is positive, negative, or zero.
 
+### ✔ Pseudocode
+
+```text
+START
+	INPUT number
+	IF number > 0 THEN
+		PRINT Positive
+	IF number < 0 THEN
+		PRINT Negative
+	ELSE
+		PRINT Zero
+	ENDIF
+END
+```
+
+### ✔ Flowchart
+
+GitHub link to my draw.io flowchart image: [Flowchart image](https://github.com/JiHo51/g63-ws-algorithm-flowchart/blob/main/Task4%20-%20Flowchart.drawio.png)
+
+```mermaid
+flowchart TD
+    Id0([START]) --> Id1[/Get input: number/]
+    Id1 --> Id2{number > 0 ?}
+    Id2 --> |No| Id3{number < 0 ?}
+    Id2 --> |Yes| Id4[/Print: Positive/]
+    Id3 --> |Yes| Id5[/Print: Negative/]
+    Id3 --> |No| Id6[/Print: Zero/]
+    Id4 --> Id7([END])
+    Id5 --> Id7([END])
+    Id6 --> Id7([END])
+```
+
 ---
 
 ## 5. Simple Interest Calculator
