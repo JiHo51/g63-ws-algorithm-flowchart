@@ -98,6 +98,34 @@ flowchart TD
 Create an algorithm and flowchart that input a number and display its
 multiplication table from 1 to 10 using a loop.
 
+### ✔ Pseudocode
+
+```text
+START
+	INPUT number
+	For iteration 1 to 10
+		result = number * iteration
+		PRINT result
+	EndFor
+END
+```
+
+### ✔ Flowchart
+
+GitHub link to my draw.io flowchart image: [Flowchart image](https://github.com/JiHo51/g63-ws-algorithm-flowchart/blob/main/Task3%20-%20Flowchart.drawio.png)
+
+```mermaid
+flowchart TD
+    Id0([Start]) --> Id1[/Get input: number/]
+    Id1 --> Id2[iteration = 1]
+    Id2 --> Id3[result = number * iteration]
+    Id3 --> Id4[/Print: result/]
+    Id4 --> Id5{iteration >= 10 ?}
+    Id5 --> |No| Id6[iteration = iteration + 1]
+    Id6 --> Id3
+    Id5 --> |Yes| Id7([End])
+```
+
 ---
 
 ## 4. Positive, Negative, or Zero Check
