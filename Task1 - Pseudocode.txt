@@ -1,0 +1,13 @@
+Task1 - Pseudocode
+------------------
+
+Task 1 - Check Even or Odd Number:
+
+START
+	INPUT number
+	IF number % 2 == 0 THEN
+		PRINT Even
+	ELSE
+		PRINT Odd
+	ENDIF
+END
