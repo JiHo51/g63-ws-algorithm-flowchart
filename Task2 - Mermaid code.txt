@@ -1,0 +1,9 @@
+flowchart TD
+    Id0([Start]) --> Id1[/Get input: math-mark/]
+    Id1 --> Id2[/Get input: english-mark/]
+    Id2 --> Id3[/Get input: geography-mark/]
+    Id3 --> Id4[total = math-mark + english-mark + geography-mark]
+    Id4 --> Id5[average = total / 3]
+    Id5 --> Id6[/Print: total/]
+    Id6 --> Id7[/Print: average/]
+    Id7 --> Id8([End])

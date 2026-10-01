@@ -1,0 +1,19 @@
+Task2 - Pseudocode
+------------------
+
+Task 2 - Calculate Total and Average Marks:
+
+Marks:		1 to 5 (not important for the task)
+Subjects:	Math, English, Geography (3 subjects)
+
+START
+	INPUT math-mark
+	INPUT english-mark
+	INPUT geography-mark
+
+	total = math-mark + english-mark + geography-mark
+	average = total / 3
+
+	PRINT total
+	PRINT average
+END
