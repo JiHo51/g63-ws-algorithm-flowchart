@@ -178,6 +178,34 @@ interest using the formula:
 - **R = Rate of Interest** → percentage per year
 - **T = Time** → number of years
 
+### ✔ Pseudocode
+
+```text
+START
+	INPUT P (Principal (kr))
+	INPUT R (Interest Rate (%))
+	INPUT T (Time (Years))
+
+	SI = (P × R × T) / 100
+
+	PRINT "Interest of 1 year: " SI " kr"
+END
+```
+
+### ✔ Flowchart
+
+GitHub link to my draw.io flowchart image: [Flowchart image](https://github.com/JiHo51/g63-ws-algorithm-flowchart/blob/main/Task5%20-%20Flowchart.drawio.png)
+
+```mermaid
+flowchart TD
+    Id0([START]) --> Id1[/"Get input: P (Principal (kr))"/]
+    Id1 --> Id2[/"Get input: R (Interest Rate (%))"/]
+    Id2 --> Id3[/"Get input: T (Time (Years))"/]
+    Id3 --> Id4["SI = (P × R × T) / 100"]
+    Id4 --> Id5[/Print: "Interest of 1 year: " SI " kr"/]
+    Id5 --> Id6([END])
+```
+
 ---
 
 ## 6. Average Temperature Calculation
