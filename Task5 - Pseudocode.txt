@@ -1,0 +1,24 @@
+Task5 - Pseudocode
+------------------
+
+Task 5 - Simple Interest Calculator:
+
+Create an algorithm and flowchart for a program that calculates simple interest using the formula:
++------------------------+
+| SI = (P × R × T) / 100 |
++------------------------+
+• SI = Simple Interest (kr)
+• P  = Principal → original amount of money (kr)
+• R  = Rate of Interest → percentage per year (%)
+• T  = Time → number of years (Time (Years))
+
+--- Pseuodocode -----------------
+START
+	INPUT P (Principal (kr))
+	INPUT R (Interest Rate (%))
+	INPUT T (Time (Years))
+
+	SI = (P × R × T) / 100
+
+	PRINT "Interest of 1 year: " SI " kr"
+END

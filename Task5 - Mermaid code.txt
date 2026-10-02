@@ -1,0 +1,7 @@
+flowchart TD
+    Id0([START]) --> Id1[/Get input: P (Principal (kr))/]
+    Id1 --> Id2[/Get input: R (Interest Rate (%))/]
+    Id2 --> Id3[/Get input: T (Time (Years))]
+    Id3 --> Id4[SI = (P × R × T) / 100]
+    Id4 --> Id5[/Print: "Interest of 1 year: " SI " kr"/]
+    Id5 --> Id6([END])
