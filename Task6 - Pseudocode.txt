@@ -1,0 +1,19 @@
+Task6 - Pseudocode
+------------------
+
+Task 6 - Average Temperature Calculation:
+
+Write the algorithm and draw the flowchart for a program that takes the temperature of 7 days, finds the average temperature, and displays it.
+
+
+--- Pseuodocode -----------------
+START
+	Sum = 0
+	For iteration 1 to 7
+		PRINT "Input average temperature of Day (iteration):"
+		INPUT T(iteration)
+		Sum = Sum + T(iteration)
+	EndFor
+	TAvg = Sum / 7
+	PRINT "Average temperature over 7 days: " TAvg " °C"
+END
