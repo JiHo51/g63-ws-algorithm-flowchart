@@ -213,6 +213,40 @@ flowchart TD
 Write the algorithm and draw the flowchart for a program that takes the
 temperature of 7 days, finds the average temperature, and displays it.
 
+### ✔ Pseudocode
+
+```text
+START
+	Sum = 0
+	For iteration 1 to 7
+		PRINT "Input average temperature of Day (iteration):"
+		INPUT T(iteration)
+		Sum = Sum + T(iteration)
+	EndFor
+	TAvg = Sum / 7
+	PRINT "Average temperature over 7 days: " TAvg " °C"
+END
+```
+
+### ✔ Flowchart
+
+GitHub link to my draw.io flowchart image: [Flowchart image](https://github.com/JiHo51/g63-ws-algorithm-flowchart/blob/main/Task6%20-%20Flowchart.drawio.png)
+
+```mermaid
+flowchart TD
+    Id0([START]) --> Id1[Sum = 0]
+    Id1 --> Id2[iteration = 1]
+    Id2 --> Id3[/"Print: Input average temperature of Day (iteration):"/]
+    Id3 --> Id4[/"Get input: T(iteration)"/]
+    Id4 --> Id5["Sum = Sum + T(iteration)"]
+    Id5 --> Id6{iteration >= 7 ?}
+    Id6 --> |No| Id7[iteration = iteration + 1]
+    Id7 --> Id3
+    Id6 --> |Yes| Id8[TAvg = Sum / 7]
+    Id8 --> Id9[/"Print: Average temperature over 7 days:_ TAvg _°C"/]
+    Id9 --> Id10([END])
+```
+
 ---
 
 ## 7. Calculate Area of a Rectangle
