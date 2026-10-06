@@ -1,0 +1,25 @@
+Task7 - Pseudocode
+------------------
+
+Task 7 - Calculate Area of a Rectangle:
+
+Create an algorithm and flowchart to input length and width, calculate the area (Area = Length × Width), and display the result.
++-----------+
+| A = L × W |
++-----------+
+• A = Area (m²)
+• L = Length (m)
+• W = Width (m)
+
+--- Pseuodocode -----------------
+START
+	PRINT "Input Length (m):"
+	INPUT L (Length (m))
+
+	PRINT "Input Width (m):"
+	INPUT W (Width (m))
+
+	A = L × W
+
+	PRINT "The rectangle area is: " A " m²"
+END

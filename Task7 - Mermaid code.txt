@@ -1,0 +1,8 @@
+flowchart TD
+    Id0([START]) --> Id1[/Print: "Input Length (m):"/]
+    Id1 --> Id2[/Get input: L (Length (m))/]
+    Id2 --> Id3[/Print: "Input Width (m):"/]
+    Id3 --> Id4[/Get input: W (Width (m))/]
+    Id4 --> Id5[A = L × W]
+    Id5 --> Id6[/Print: "The rectangle area is: " A " m²"/]
+    Id6 --> Id7([END])
