@@ -254,6 +254,37 @@ flowchart TD
 Create an algorithm and flowchart to input length and width, calculate
 the area (**Area = Length × Width**), and display the result.
 
+### ✔ Pseudocode
+
+```text
+START
+	PRINT "Input Length (m):"
+	INPUT L (Length (m))
+
+	PRINT "Input Width (m):"
+	INPUT W (Width (m))
+
+	A = L × W
+
+	PRINT "The rectangle area is: " A " m²"
+END
+```
+
+### ✔ Flowchart
+
+GitHub link to my draw.io flowchart image: [Flowchart image](https://github.com/JiHo51/g63-ws-algorithm-flowchart/blob/main/Task7%20-%20Flowchart.drawio.png)
+
+```mermaid
+flowchart TD
+    Id0([START]) --> Id1[/"Print: Input Length (m):"/]
+    Id1 --> Id2[/"Get input: L (Length (m))"/]
+    Id2 --> Id3[/"Print: Input Width (m):"/]
+    Id3 --> Id4[/"Get input: W (Width (m))"/]
+    Id4 --> Id5[A = L × W]
+    Id5 --> Id6[/"Print: The rectangle area is:_ A _m²"/]
+    Id6 --> Id7([END])
+```
+
 ---
 
 ## 8. Determine Pass or Fail
